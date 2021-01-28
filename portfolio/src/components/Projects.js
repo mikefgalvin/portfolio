@@ -1,12 +1,13 @@
 import React from 'react';
-
+import { useHistory } from "react-router-dom";
 
 function Projects() {
     // const [projects, setProjects] = useState(initialProjects)
-
+    const { push } = useHistory();
     const handleClick = e => {
         e.preventDefault();
-        window.location.href = '/';
+        // window.location.href = '/';
+        push('/')
     }
 
   return (

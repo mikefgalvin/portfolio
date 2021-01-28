@@ -1,6 +1,7 @@
 import './App.css';
 import Projects from './components/Projects';
 import Home from './components/Home';
+import About from './components/About';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="App" >
       <header className="App-header">
       <Link to='/' 
-              style={{ textDecoration: 'none', color: 'white', padding: '2%' }}>
+              style={{ textDecoration: 'none', color: '#1ecbe1', padding: '2%' }}>
               Mike Galvin</Link>
         <nav>
         <Link to='./about' 
@@ -22,7 +23,7 @@ function App() {
       </header>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/about" />
+        <Route path="/about" component={About}/>
         <Route path="/projects" component={Projects} />
       </Switch>
     </div>
