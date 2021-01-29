@@ -11,7 +11,6 @@ function Home() {
           <h1>Mike is a <span className='highlight'>Developer</span> building the way the world interacts with technology </h1>
         </div>
         <div className='Hero-image'>
-        <img src='https://i.ibb.co/3fgLjCT/IMG-9436.png' alt='Mike Galvin'/>
         </div>
     </div>
     <div>

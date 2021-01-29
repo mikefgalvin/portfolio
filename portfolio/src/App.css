@@ -62,9 +62,16 @@
   padding: 4% 2%;
 }
 
+.project-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .project {
   position: relative;
-  width: 50%;
+  width: 100%;
   color: white;
   border: 5px solid white;
 }
