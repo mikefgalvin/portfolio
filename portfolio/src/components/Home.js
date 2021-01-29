@@ -15,7 +15,6 @@ function Home() {
         </div>
     </div>
     <div>
-        <img src='https://images.unsplash.com/photo-1488554378835-f7acf46e6c98?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80' alt='Mike Galvin'/>    
     </div>
     </>
   );
