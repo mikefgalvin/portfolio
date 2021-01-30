@@ -8,7 +8,6 @@ function Home() {
     <div className='Home'>
         <div className='Hero-info'>
           <h1>Hi! I'm <span className='highlight'>Mike</span> and I'm a <br /> <span className='highlight'>Full-stack Developer</span></h1>
-          {/* <h2>Full-stack Web Developer</h2> */}
         </div>
         <div className='Hero-image'>
           <img src='https://i.ibb.co/3fgLjCT/IMG-9436.png' alt='Mike Galvin' />
