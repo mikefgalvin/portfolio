@@ -15,7 +15,7 @@ function Projects() {
     <h1>Projects</h1>
     <div className="Projects">
         <div className='Project-container'>
-            <a href='https://react-github-user-card-pink-rho.vercel.app/'><h2>Github Cards</h2></a>
+            {/* <a href='https://react-github-user-card-pink-rho.vercel.app/'><h2>Github Cards</h2></a> */}
             <div className="project" onClick={handleClick}>
                 <img src="https://i.ibb.co/gVmJ6Nr/Github-Card.png'" alt="Github" class="image"/>
                     <div class="overlay">
