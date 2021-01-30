@@ -1,6 +1,4 @@
 import React from 'react';
-import { Document } from 'react-pdf';
-import copy from '../assets/copy.jpg'
 import resume from '../assets/Resume.png'
 
 
@@ -11,7 +9,7 @@ function Resume() {
         <div className='Resume-info'>
           <h1>Resume!</h1>
           <div className='resumeDoc'>
-             <img src={resume}/>
+             <img src={resume} alt='My Resume'/>
           </div>
         </div>
     </div>
