@@ -13,7 +13,25 @@ function Home() {
           <img src='https://i.ibb.co/3fgLjCT/IMG-9436.png' alt='Mike Galvin' />
         </div>
     </div>
-    <div>
+    <h2 className='skillh2'>Techstack</h2>
+    <div className='skills'>
+      <div className='skillList'>
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Redux</li>
+        </ul>
+      </div>
+      <div className='skillList'>
+        <h3>Backend</h3>
+        <ul>
+          <li>Java</li>
+          <li>SQL</li>
+        </ul>
+      </div>
     </div>
     </>
   );
