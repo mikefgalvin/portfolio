@@ -277,11 +277,12 @@
       padding:0;
   }
 
-  .Home {
+  .HomeInfo {
     padding: 2%;
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
+    padding-bottom: 0%;
   }
   
   
