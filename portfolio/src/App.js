@@ -37,6 +37,11 @@ function App() {
         <Route path="/projects" component={Projects} />
         <Route path="/resume" component={Resume}/>
       </Switch>
+      <footer className='midLogo'>
+        <a href='https://github.com/mikefgalvin' target="_blank" rel="noreferrer">Github</a>
+        <a href='mailto:mikefgalvin@gmail.com' target="_blank" rel="noreferrer">Email</a>
+        <a href='https://www.linkedin.com/in/mikefgalvin/' target="_blank" rel="noreferrer">linkedin</a>
+      </footer>
     </div>
     </Router>
   );
