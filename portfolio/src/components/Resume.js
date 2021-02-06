@@ -7,7 +7,7 @@ function Resume() {
   return (
     <div className='Resume'>
         <div className='Resume-info'>
-          <h1>Resume!</h1>
+          <h2 className='skillh2'>Resume</h2>
           <div className='resumeDoc'>
              <img src={resume} alt='My Resume'/>
           </div>
