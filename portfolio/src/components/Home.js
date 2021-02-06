@@ -13,10 +13,6 @@ function Home() {
           <img src='https://i.ibb.co/3fgLjCT/IMG-9436.png' alt='Mike Galvin' />
         </div>
     </div>
-    <div className='midLogo'>
-    <a href='https://github.com/mikefgalvin' target="_blank" rel="noreferrer">Github</a>
-    <a href='https://www.linkedin.com/in/mikefgalvin/' target="_blank" rel="noreferrer">linkedin</a>
-    </div>
     <h2 className='skillh2'>Technical Skills</h2>
     <div className='skills'>
       <div className='skillList'>

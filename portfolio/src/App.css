@@ -105,7 +105,7 @@
   font-size: calc(10px + 3vmin);
   justify-content: space-evenly;
   border-top: 2px solid #1ecbe1;
-  border-bottom: 2px solid #1ecbe1;
+  /* border-bottom: 2px solid #1ecbe1; */
   padding: 2% 0;
   box-shadow: 0 0 5px rgb(33, 240, 255), 4px 4px 10px rgb(48, 228, 235);
 }
@@ -259,7 +259,7 @@
 }
 
 .Resume {
-  height: 100vh;
+  height: 100%;
 }
 
 .resumeDoc img{
