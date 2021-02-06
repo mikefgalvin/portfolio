@@ -44,6 +44,7 @@
 
 .navLink:hover { 
   background-color: #1ecbe1;
+  font-size: calc(10px + 3vmin);
 }
 
 
@@ -53,11 +54,13 @@
 
 .Home {
   padding: 2%;
+  padding-bottom: 0;
   /* border: 1px solid red; */
   display: flex;
   background-color: #141414;
   /* height: 100vh; */
 }
+
 
 .skillh2 {
   font-size: calc(10px + 4vmin);
@@ -65,7 +68,8 @@
 
 
 .About {
-  padding: 4%;
+  padding: 2%;
+  padding-top: 1%;
   /* border: 1px solid red; */
 }
 
@@ -90,6 +94,29 @@
 
 .Hero-image img{
   width: 500px;
+}
+
+.midLogo {
+  display: flex;
+  font-size: calc(10px + 3vmin);
+  justify-content: space-evenly;
+  border-top: 2px solid #1ecbe1;
+  border-bottom: 2px solid #1ecbe1;
+  padding: 2% 0;
+  box-shadow: 0 0 5px rgb(33, 240, 255), 4px 4px 10px rgb(48, 228, 235);
+}
+
+.midLogo a{
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding: 1%;
+  box-shadow: 0 0 5px rgb(33, 240, 255), 4px 4px 10px rgb(48, 228, 235);
+}
+
+.midLogo a:hover{
+  color: white;
+  font-size: calc(10px + 4vmin);
 }
 
 .skills {
@@ -123,11 +150,11 @@
   /* padding-left: 12%; */
 }
 
-.skillList li{
+.skillList p{
   /* border: 1px solid red; */
   text-align: center;
-  font-size: calc(10px + 2.5vmin);
-  width: 50%;
+  font-size: calc(10px + 2vmin);
+  margin-top: -2%;
 }
 
 .AboutCard {
@@ -141,7 +168,7 @@
   background-color: whitesmoke;
 }
 
-.AboutCard h2{
+.AboutCard h3{
   font-size: calc(10px + 2vmin);
   margin-top: 0;
 }
@@ -170,11 +197,26 @@
   align-items: center;
 }
 
+.Project-container a{
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding: 1%;
+  box-shadow: 0 0 5px rgb(33, 240, 255), 4px 4px 10px rgb(48, 228, 235);
+  font-size: calc(10px + 2vmin);
+}
+
+.Project-container a:hover{
+  color: white;
+  font-size: calc(10px + 3vmin);
+}
+
 .project {
   position: relative;
   width: 100%;
   color: white;
   border: 5px solid white;
+  display: none;
 }
 
 .image {

@@ -12,9 +12,15 @@ function Projects() {
 
   return (
     <>
-    <h1>Projects</h1>
+    <h2 className='skillh2'>Projects</h2>
     <div className="Projects">
+        
         <div className='Project-container'>
+            <h2>Coming Soon...creating case studies!</h2>
+            <h3>For now, explore my gitub!</h3>
+            <a href='https://github.com/mikefgalvin' target="_blank" rel="noreferrer">Github</a>
+            <h3>PS...this site was made with React JS</h3>
+
             {/* <a href='https://react-github-user-card-pink-rho.vercel.app/'><h2>Github Cards</h2></a> */}
             <div className="project" onClick={handleClick}>
                 <img src="https://i.ibb.co/gVmJ6Nr/Github-Card.png'" alt="Github" class="image"/>
