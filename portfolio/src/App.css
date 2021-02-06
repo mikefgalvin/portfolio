@@ -53,12 +53,16 @@
 }
 
 .Home {
+  /* height: 100vh; */
+}
+
+.HomeInfo {
   padding: 2%;
   padding-bottom: 0;
   /* border: 1px solid red; */
   display: flex;
   background-color: #141414;
-  /* height: 100vh; */
+  
 }
 
 
@@ -254,6 +258,10 @@
   text-align: center;
 }
 
+.Resume {
+  height: 100vh;
+}
+
 .resumeDoc img{
   width: 80%;
   padding-bottom: 2%;
@@ -290,6 +298,27 @@
     width: 500px;
   }
 
+  .Project-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .Project-container h2{
+    padding: 2%;
+  }
+
+  .Project-container h3{
+    padding: 2%;
+  }
+
+  .Project-container a{
+    padding: 2%;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+
   .project {
     box-sizing: border-box;
     width: 80%;
@@ -300,6 +329,11 @@
     flex-direction: column;
     align-items: center;
     margin: 2% auto;
+    width: 80%;
+  }
+
+  .skillh2 {
+    padding-top: 4%;
   }
 
   .skillList {

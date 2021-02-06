@@ -4,8 +4,8 @@ import React from 'react';
 function Home() {
 
   return (
-      <>
-    <div className='Home'>
+      <div className='Home'>
+    <div className='HomeInfo'>
         <div className='Hero-info'>
           <h1>Hi! I'm <span className='highlight'>Mike</span> and I'm a <br /> <span className='highlight'>Full-stack Developer</span></h1>
         </div>
@@ -34,7 +34,7 @@ function Home() {
           <p>SQL</p>
       </div>
     </div>
-    </>
+    </div>
   );
 }
 
