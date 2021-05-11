@@ -19,7 +19,7 @@ function Projects() {
             <h2>Coming Soon...creating case studies!</h2>
             <h3>For now, explore my gitub!</h3>
             <a href='https://github.com/mikefgalvin' target="_blank" rel="noreferrer">Github</a>
-            <h3>PS...this site was made with React JS</h3>
+            <h3>PS...this site was made with React</h3>
 
             {/* <a href='https://react-github-user-card-pink-rho.vercel.app/'><h2>Github Cards</h2></a> */}
             <div className="project" onClick={handleClick}>
