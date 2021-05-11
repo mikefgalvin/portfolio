@@ -17,7 +17,7 @@ function About() {
           </div>
           <div className='AboutCard'>
           <h3>Future</h3>
-          <p>My goal is to put my skills to work while leveraging my prior experience to build and ship meaningful products. I want to see a great software experience and say “I was apart of building that” </p>
+          <p>My goal is to put my skills to work while leveraging my prior experience to build and ship meaningful products. I want to see a great software experience and say “I was apart of building that!” </p>
           </div>
         </div>
         {/* <div className='Hero-image'>
